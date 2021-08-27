@@ -1,0 +1,71 @@
+.model {
+  position: absolute;
+  width: 294px;
+  height: 340px;
+  left: 50px;
+  top: 311px;
+}
+
+.frame {
+  position: absolute;
+  width: 294px;
+  height: 241px;
+  left: 50px;
+  top: 311px;
+
+  border-radius: 5px 5px 0px 0px;
+}
+
+.car-img {
+  position: absolute;
+  width: 510px;
+  height: 319px;
+  left: -113px;
+  top: -13px;
+
+  background: url(./ms-main-hero-desktop1.png);
+}
+
+// .name1 {
+//   position: absolute;
+//   width: 93px;
+//   height: 30px;
+//   left: 61px;
+//   top: 562px;
+
+//   font-family: Lexend Deca;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-size: 24px;
+//   line-height: 30px;
+// }
+
+// .name2 {
+//   position: absolute;
+//   width: 91px;
+//   height: 30px;
+//   left: 408px;
+//   top: 562px;
+
+//   font-family: Lexend Deca;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-size: 24px;
+//   line-height: 30px;
+//   /* identical to box height */
+
+//   color: #000000;
+// }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  padding-right: 15rem;
+  margin-right: 3rem;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 5px 5px 0 0;
+}

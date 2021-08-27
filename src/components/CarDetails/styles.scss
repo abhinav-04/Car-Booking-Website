@@ -1,0 +1,62 @@
+.heading-detail {
+  position: absolute;
+  width: 163px;
+  height: 45px;
+  left: 639px;
+  top: 11rem;
+
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 45px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.car-photo {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background-image: url(../photos/ModelS.png);
+}
+
+.btndetails {
+  position: absolute;
+  width: 212px;
+  height: 50px;
+  left: 614px;
+  top: 47rem;
+
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background-color: transparent;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+.front-photo {
+  position: absolute;
+  width: 122vw;
+  height: 938px;
+  left: -22vw;
+  top: 51rem;
+  right: 100rem;
+  bottom: 0%;
+  background-image: url(../photos/ModelSBlack.png);
+  z-index: -1;
+}
+
+.details {
+  position: absolute;
+  top: 50rem;
+  right: 50rem;
+  bottom: 0%;
+  left: 70rem;
+  color: white;
+  //   display: flex;
+  //   flex-direction: row;
+}

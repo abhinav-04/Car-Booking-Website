@@ -1,0 +1,59 @@
+.homepage {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background-image: url(./m3-homepage-desktop2.png);
+  height: auto;
+  //   background-size: cover;
+}
+
+.btn {
+  /* Rectangle 1 */
+  position: absolute;
+  width: 214px;
+  height: 43px;
+  left: 613px;
+  top: 750px;
+  color: white;
+  background: #464646;
+  border-radius: 54px;
+}
+
+.heading {
+  position: relative;
+  width: 472px;
+  height: 35px;
+  left: 519px;
+  top: 212px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 35px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.brand-logo {
+  position: absolute;
+  width: 117.39px;
+  height: 12px;
+  left: 29px;
+  top: 26px;
+}
+
+.range {
+  position: absolute;
+  width: 126px;
+  height: 15px;
+  left: 1285px;
+  top: 23px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  color: #000000;
+}

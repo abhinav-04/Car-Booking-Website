@@ -1,0 +1,25 @@
+.heading-list {
+  position: absolute;
+  width: 154px;
+  height: 30px;
+  left: 643px;
+  top: 150px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #464646;
+}
+
+.card-wrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20rem;
+  margin-left: 5rem;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
