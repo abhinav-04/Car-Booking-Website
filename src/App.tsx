@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Switch, Link} from "react-router-dom";
 import { CarList } from './components/CarList';
 import brandlogo from "./brand.svg"
 import { CarDetails } from './components/CarDetails';
+// import {CarCustomisation} from './components/CarCustomisation'
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
           <Route exact path="/cars/:id">
             <CarDetails />
           </Route>
+          {/* <Route exact path="/car/:id/customise">
+            <CarCustomisation/>
+          </Route> */}
         </Switch>
       </section>
     </div>

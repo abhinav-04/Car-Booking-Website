@@ -23,19 +23,37 @@
   bottom: 0%;
   background-image: url(../photos/ModelS.png);
 }
+#ord-btn{
+  margin-left: 44%;
+  left: 50%;
+  margin-top: 50vw;
+}
 
-.btndetails {
-  position: absolute;
+.nm-car{
+  font-size: 24px;
+}
+button {
+  // position: absolute;
   width: 212px;
   height: 50px;
-  left: 614px;
-  top: 47rem;
-
+  // left: 614px;
+  // top: 47rem;
+  // justify-content: center;
+  margin: 2% 3% 4% auto ;
   border: 2px solid #ffffff;
   color: #ffffff;
   background-color: transparent;
   box-sizing: border-box;
   border-radius: 50px;
+}
+
+.btndetails{
+  border: 2px solid #787878;
+}
+
+#ord-btn:hover{
+  color: #000000;
+  background-color: white;
 }
 
 .front-photo {
@@ -52,11 +70,42 @@
 
 .details {
   position: absolute;
-  top: 50rem;
-  right: 50rem;
+  top: 65rem;
+  right: 45rem;
   bottom: 0%;
-  left: 70rem;
+  left: 55rem;
   color: white;
+  // padding: 10rem;
+  // margin: 5rem;
   //   display: flex;
   //   flex-direction: row;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  font-family: 'Lexend Deca', sans-serif;
+  width: 100%;
+}
+// tr{
+// }
+th{
+  // font-family: 'Lexend Deca', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding-right: 130px;
+  // margin-right: 50rem;
+  // line-height: 1px;
+  // height: 50px;
+  // padding-bottom: 0%;
+}
+td{
+  // font-family: 'Lexend Deca', sans-serif;
+  font-size: 16px;
+  // line-height: 15px;
+  padding: 0px 50px 20px 1px;
+  // padding-bottom: 10%;
+}
+
+
+.pressed{
+  border: 2px solid #ffffff;
 }
